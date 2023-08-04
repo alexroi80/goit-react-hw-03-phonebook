@@ -1,0 +1,24 @@
+.listItem{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    margin: 0;
+    
+}
+.itemInfo{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn{
+    background-color: #fff;
+    padding: 5px 10px;
+    font-size: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.btn:is(:focus, :hover){
+    background-color: lightgray;
+    font-weight: 600;
+    scale: 1.1;
+}
